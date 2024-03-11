@@ -1,35 +1,26 @@
-//Terminar em casa, Exercicio slide 55.
-public class AulaMain {
-
-    
-    public static void main(String[] args) {
-        int NumSecreto = 10;
-        int Chute = InOut.leInt(Chute)
+  public static void main(String[] args) {
+        int NUM = 10;
+        int chute;
         
-        for(int i=0 i;i<=16;i++){
-         if(i>=3){
-             InOut.MsgDeAviso("Dica 1:O número está entre 1 a 1000");
-         }else if(i<=5){
-             InOut.MsgDeAviso("Dica 1:O número está entre 1 a 1000");
-         }else if(i>=8){
-             InOut.MsgDeAviso("Dica 2:O número está entre 1 a 100");
-         }else if(i<=10){
-             InOut.MsgDeAviso("Dica 2:O número está entre 1 a 100");
-         }else(i>=13){
-            InOut.MsgDeAviso("O número está entre 1 a 10");
+        for(int i= 1;i <=16;i++){
+           chute = InOut.leInt("Chute um número");
+           if (i>=3 && i<=5){
+              InOut.MsgDeAviso("Dica", "O número está entre 1 e 1000");
+               
+           }else if(i>=8 && i<=10){
+               InOut.MsgDeAviso("Dica", "O número está entre 1 e 100");
+           }else if(i>=13){
+               InOut.MsgDeAviso("Dica", "O número está entre 1 e 10");
+           }
+           if(chute==NUM){
+               InOut.MsgDeInformacao("Parabéns","Voce acertou");
+               return;
+           }
+           
+            
         }
-    
-       }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        InOut.MsgDeErro("Erro","Voce excedeu o número de tentativas");
+       
     }
     
 }
