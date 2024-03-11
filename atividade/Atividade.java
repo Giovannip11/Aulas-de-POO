@@ -1,0 +1,32 @@
+
+package atividade;
+
+
+public class Atividade {
+
+    public static void main(String[] args) {
+        int NUM = 10;
+        int chute;
+        
+        for(int i= 1;i <=16;i++){
+           chute = InOut.leInt("Chute um número");
+           if (i>=3 && i<=5){
+              InOut.MsgDeAviso("Dica", "O número está entre 1 e 1000");
+               
+           }else if(i>=8 && i<=10){
+               InOut.MsgDeAviso("Dica", "O número está entre 1 e 100");
+           }else if(i>=13){
+               InOut.MsgDeAviso("Dica", "O número está entre 1 e 10");
+           }
+           if(chute==NUM){
+               InOut.MsgDeInformacao("Parabéns","Voce acertou");
+               return;
+           }
+           
+            
+        }
+        InOut.MsgDeErro("Erro","Voce excedeu o número de tentativas");
+       
+    }
+    
+}
