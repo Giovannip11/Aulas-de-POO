@@ -1,0 +1,24 @@
+package aula2;
+
+public class Aula2 {
+
+    
+    public static void main(String[] args) {
+        int peso = 0;
+        int qtdBois = 0;
+        int Média;
+        
+      while(peso>0){
+          peso = InOut.leInt("Digite o peso do boi(kg)");
+          qtdBois = qtdBois + 1;
+          
+          }
+      Média = peso+peso /qtdBois;
+      InOut.MsgDeInformacao("Resultado:", Média + " este é o peso médio do rebanho.");
+      
+        
+
+        
+    }
+    
+}
