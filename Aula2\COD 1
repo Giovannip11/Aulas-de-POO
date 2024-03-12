@@ -1,3 +1,6 @@
+*\\ Faça um algoritmo que leia o peso, em quilogramas, de N bois e calcule e imprima: O peso médio do rebanho, peso do boi mais gordo, peso do boi mais magro. Acabar quando digitar um número negativo
+
+
 package aula2;
 
 public class Aula2 {
