@@ -14,7 +14,7 @@ public class Atividade2 {
        
       while(true){
           peso = InOut.leFloat("Digite o peso do boi(kg)");
-          if (peso < 0){
+          if (peso <= 0){
               break;
           }
           qtdBois++;
