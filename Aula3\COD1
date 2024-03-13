@@ -1,20 +1,27 @@
+  package atividade3;
+
+public class Atividade3 {
+// Exercício, cenário:Programador Fit
+
+    public static void main(String[] args) {
         float altura;
-       char sexo;
-       float pesoIdeal;
-  
-       
-       altura = InOut.leFloat("Digite a altura em metros(M)");
-       sexo = InOut.leChar("Digite seu sexo,(M) para masculino, (F) para feminino");
-        
-        
-       
-       if (sexo=='m'){
-            pesoIdeal =  (float) ((72.7*altura) - 58);
-            InOut.MsgDeInformacao("Resultado", "O peso ideal é "+ pesoIdeal + "kg");
-           
-       } else if(sexo=='f') {
-          pesoIdeal=(float) ((62.1*altura)-44.7);
-          InOut.MsgDeInformacao("Resultado", "O peso ideal é "+ pesoIdeal + "kg");
-        }else{
-           InOut.MsgDeAviso("Erro", "Digite apenas os caracteres M para masculino ou F para feminino");
-       }
+        char sexo;
+        float pesoIdeal;
+
+        altura = InOut.leFloat("Digite a altura em metros(M)");
+        sexo = InOut.leChar("Digite seu sexo,(M) para masculino, (F) para feminino");
+
+        if (sexo == 'M') {
+            pesoIdeal = (float) ((72.7 * altura) - 58);
+            InOut.MsgDeInformacao("Resultado", "O peso ideal é " + pesoIdeal + "kg");
+
+        } else if (sexo == 'F') {
+            pesoIdeal = (float) ((62.1 * altura) - 44.7);
+            InOut.MsgDeInformacao("Resultado", "O peso ideal é " + pesoIdeal + "kg");
+        } else {
+            InOut.MsgDeAviso("Erro", "Digite apenas os caracteres M para masculino ou F para feminino");
+        }
+
+    }
+
+}
