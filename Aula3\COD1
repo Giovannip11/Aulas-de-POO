@@ -1,4 +1,4 @@
- float altura;
+        float altura;
        char sexo;
        float pesoIdeal;
   
@@ -8,12 +8,12 @@
         
         
        
-       if (sexo=='M'){
-            pesoIdeal =  (72.7*altura) - 58;
+       if (sexo=='m'){
+            pesoIdeal =  (float) ((72.7*altura) - 58);
             InOut.MsgDeInformacao("Resultado", "O peso ideal é "+ pesoIdeal + "kg");
            
-       } else if(sexo='F') {
-          pesoIdeal==(62.1*altura)-44.7;
+       } else if(sexo=='f') {
+          pesoIdeal=(float) ((62.1*altura)-44.7);
           InOut.MsgDeInformacao("Resultado", "O peso ideal é "+ pesoIdeal + "kg");
         }else{
            InOut.MsgDeAviso("Erro", "Digite apenas os caracteres M para masculino ou F para feminino");
