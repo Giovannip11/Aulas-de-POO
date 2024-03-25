@@ -1,0 +1,42 @@
+package exercicio2;
+
+public class Funcionario {
+    
+    private int matricula;
+    private String nome;
+    private String cargoAtual;
+    private float salárioAtual;
+    private float salario;
+
+    public Funcionario() {  
+    }
+    
+    public void cadastrar(){
+        System.out.println("Cadastrando...");
+    }
+    public void consultar(){
+        System.out.println("Consultando...");
+    }
+    public void atualizarSalario(float novoSalario){
+        this.salario = novoSalario;
+    }
+    public void listarDependentes(){
+        System.out.println("Listar...");
+    }
+}
+/////////////////////////
+package exercicio2; 
+
+    public class AppMain {
+     public static void main(String[] args) {
+         Funcionario funcionario = new Funcionario();
+         
+        funcionario.cadastrar();
+        funcionario.consultar();
+        funcionario.atualizarSalario(2500.00f);
+        funcionario.listarDependentes();
+         
+         
+         
+     }
+}
