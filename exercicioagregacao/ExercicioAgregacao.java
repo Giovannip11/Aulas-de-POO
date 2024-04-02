@@ -7,7 +7,7 @@ public class ExercicioAgregacao {
     
     public static void main(String[] args) {
         Conta cc1 = new Conta ();
-        Cliente CL1 = new Cliente();
+        Cliente CL1 = new Cliente("Giggio","Aracas","123-4");
         
         cc1.numero =1;
         cc1.depositar(100);
