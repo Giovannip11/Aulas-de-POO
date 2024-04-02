@@ -13,6 +13,9 @@ public class ExercicioAgregacao {
         cc1.c= CL1;
         cc1.numero =1;
         cc1.depositar(100);
+        cc1.addCliente(CL1);
+        cc1.addCliente(CL2);
+        cc1.addCliente(CL3);
         
         if(cc1.sacar(50))
             System.out.println("Saque com sucesso");
