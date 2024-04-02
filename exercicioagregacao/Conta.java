@@ -13,7 +13,7 @@ public class Conta {
    void depositar (double valor){
        saldo+= valor;
    }
-   public double transfere(double Conta){
+  void transfere(double valor, Conta destino){
        return Conta;
    }
     
