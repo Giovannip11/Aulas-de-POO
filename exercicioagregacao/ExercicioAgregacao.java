@@ -16,6 +16,10 @@ public class ExercicioAgregacao {
         cc1.addCliente(CL1);
         cc1.addCliente(CL2);
         cc1.addCliente(CL3);
+
+        for(Cliente c: cc1.cs){
+            sout(c.nome);
+        }
         
         if(cc1.sacar(50))
             System.out.println("Saque com sucesso");
