@@ -8,7 +8,7 @@ public class Cliente {
     public String endereco;
     public String cpf;
 
-    Cliente(){
+    public Cliente(){
     this.nome = nome;
     this.endereco = endereco;
     this.cpf = cpf;
