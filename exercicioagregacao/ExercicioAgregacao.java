@@ -20,6 +20,7 @@ public class ExercicioAgregacao {
         CL1.nome="Giovanni";
         
         cc1.c = CL1;
+        sout (cc1.c.CL1);
         
         System.out.println(cc1.c.nome);
     }
