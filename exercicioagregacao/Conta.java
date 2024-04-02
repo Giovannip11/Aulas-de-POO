@@ -22,7 +22,7 @@ public class Conta {
       destino.depositar(valor);
    }
 
-    boolean verificarTransacao(double valor){
+   private boolean verificarTransacao(double valor){
     //if(saldo > valor){
       //  return true;}else{return false;}
         //or
