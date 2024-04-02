@@ -5,7 +5,8 @@ package exercicioagregacao;
 public class Conta {
     public double saldo;
     public int numero; 
-    public Cliente c;
+   // public Cliente c;
+    List<Cliente> cs = new ArrayList()
     
    public boolean sacar(double valor){
         if(verificarTransacao){
