@@ -22,8 +22,10 @@ public class Conta {
    }
 
     boolean verificarTransacao(double valor){
-    if(saldo > valor){
-        return true;}else{return false;}
+    //if(saldo > valor){
+      //  return true;}else{return false;}
+        //or
+    return saldo > valor;
         
     
     }
