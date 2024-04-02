@@ -8,7 +8,11 @@ public class Conta {
     public Cliente c;
     
    public boolean sacar(double valor){
-        return true;
+        if(verificarTransacao){
+         saldo-=valor;
+            return true;
+        }else{ return false;
+    }
     }
    void depositar (double valor){
        saldo+= valor;
@@ -16,5 +20,11 @@ public class Conta {
   void transfere(double valor, Conta destino){
        return Conta;
    }
+
+    boolean verificarTransacao(double valor){
+    if(saldo > valor){
+        return true;}else{return false;}
+        
     
+    }
 }
