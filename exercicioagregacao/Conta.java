@@ -18,7 +18,8 @@ public class Conta {
        saldo+= valor;
    }
   void transfere(double valor, Conta destino){
-       return Conta;
+      this.sacar(valor);
+      destino.depositar(valor);
    }
 
     boolean verificarTransacao(double valor){
