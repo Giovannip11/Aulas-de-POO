@@ -10,6 +10,9 @@ public class Conta {
     void addCliente(Cliente c){
          cs.add(c);
     }
+    void delCliente(CLiente c){
+     cs.remove(c);
+    }
     
    public boolean sacar(double valor){
         if(verificarTransacao){
