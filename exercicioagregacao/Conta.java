@@ -7,6 +7,9 @@ public class Conta {
     public int numero; 
    // public Cliente c;
     List<Cliente> cs = new ArrayList()
+    void addCliente(Cliente c){
+         cs.add(c);
+    }
     
    public boolean sacar(double valor){
         if(verificarTransacao){
