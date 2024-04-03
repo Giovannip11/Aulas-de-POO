@@ -8,3 +8,10 @@ public class OrdemInicializacao {
         t.f();
     }
 }
+/*Saída: 
+    Rótulo(1)
+    Rótulo(2)
+    Rótulo(3)
+    Cartao()
+    Rótulo(33)
+    f() */
