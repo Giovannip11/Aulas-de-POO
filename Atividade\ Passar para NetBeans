@@ -1,0 +1,59 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+
+/////////////////////
+public class sala {
+    
+    private int idSala;
+    private int numAssentos;
+    private String tipoTela;
+    private String localizacao;
+    private sessao s;
+    
+}
+/////////////////////
+public class sessao{
+    private boolean statusSessao;
+    private String horario;
+    private sala s;
+    
+    
+    
+    public void iniciarSessao(){
+        
+    }
+    public void terminarSessao(){
+        
+    }
+    
+}
+//////////////////////////////
+public class filme {
+    private int idFilme;
+    private String titulo;
+    private String duracao;
+    private String genero;
+    private List<Ator> a = new ArrayList();
+    
+    
+    
+    public void addAtor (){
+        
+    }
+    public void mostrarAtores(){
+        
+    }
+    
+}
+////////////////////////
+public class Ator{
+    private int idAtor;
+    private String nome;
+    private String papel;
+    private List<Filme> f = new ArrayList();
+    
+}
