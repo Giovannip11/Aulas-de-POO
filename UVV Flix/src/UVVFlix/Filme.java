@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package UVVFlix;
 
-/**
- *
- * @author Clínica Max Túlio
- */
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class Filme {
+    private int idFilme;
+    private String titulo;
+    private String duracao;
+    private String genero;
+    private List<Ator> a = new ArrayList();
     
+    
+    
+    public void addAtor (){
+        
+    }
+    public void mostrarAtores(){
+        
+    }
 }

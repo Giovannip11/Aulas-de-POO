@@ -1,4 +1,4 @@
-package upinout;
+package UVVFlix;
 
 import javax.swing.JOptionPane;
 
