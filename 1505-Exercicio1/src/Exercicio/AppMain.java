@@ -4,20 +4,14 @@ package Exercicio;
 
 public class AppMain {
     public static void main(String[] args) {
-        ProfDE PD = new ProfDE();
-        PD.nome="Giovanni";
-        PD.matricula=40;
-        PD.beneficio=5;
-        PD.cargaHoraria=7;
+        ProfDE PD = new ProfDE("Giovanni", 40, 5);
+        
         
         PD.calcularBeneficio();
         
         
-        ProfHorista PH = new ProfHorista();
-        PH.nome="Max";
-        PH.matricula=50;
-        PH.beneficio=4;
-        PH.cargaHoraria=6;
+        ProfHorista PH = new ProfHorista("Max", 50, 4);
+        
         
         PH.calcularBeneficio();
     }
